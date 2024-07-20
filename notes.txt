@@ -1,0 +1,17 @@
+Create React App w/ Vite
+npm create vite@latest *name*
+npm install (or npm i)
+npm run dev
+
+Install Tailwind
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+Add to tailwind.config.js file: 
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+Add to index.css file:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
